@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Client</class>
+ <widget class="QWidget" name="Client">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>707</width>
+    <height>403</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-radius:10px;
+/*background-color: rgb(107, 144, 212);*/
+/*background-color: rgb(255, 255, 255);*/
+</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>60</y>
+     <width>181</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 206, 115);
+font: 87 15pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Network</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_IP">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>140</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/*background-color: rgb(255, 255, 255);*/
+background-color: rgb(225, 225, 225);
+border-radius:10px;
+font: 9pt &quot;Century Gothic&quot;;</string>
+   </property>
+   <property name="placeholderText">
+    <string>Pleace input IP</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_Port">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>180</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/*background-color: rgb(255, 255, 255);*/
+background-color: rgb(225, 225, 225);
+border-radius:10px;
+font: 9pt &quot;Century Gothic&quot;;</string>
+   </property>
+   <property name="placeholderText">
+    <string>Pleace input Port</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_connect">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>230</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(16, 71, 169);
+color: rgb(255, 206, 115);
+font: 75 9pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>BLINK</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>270</y>
+     <width>201</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(127, 127, 127);
+font: 9pt &quot;Century Gothic&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Current connection status is:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_status">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>290</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 206, 115);
+text-decoration: underline;
+font: 75 9pt &quot;Agency FB&quot;;
+font: 87 9pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>disconnect</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>0</y>
+     <width>451</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/cloud.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>80</y>
+     <width>31</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 206, 115);
+font: 87 10pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>X</string>
+   </property>
+  </widget>
+  <zorder>label_3</zorder>
+  <zorder>label</zorder>
+  <zorder>lineEdit_IP</zorder>
+  <zorder>lineEdit_Port</zorder>
+  <zorder>btn_connect</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_status</zorder>
+  <zorder>pushButton</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

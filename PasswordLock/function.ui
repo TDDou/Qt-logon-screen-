@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Function</class>
+ <widget class="QWidget" name="Function">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>595</width>
+    <height>370</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>230</y>
+     <width>271</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 48pt &quot;Arial Rounded MT Bold&quot;;
+color: rgb(255, 206, 115);</string>
+   </property>
+   <property name="text">
+    <string>Lock</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_lock">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>140</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(16, 71, 169);
+color: rgb(255, 206, 115);
+border-radius:7px;padding:2px 4px;
+font: 15pt &quot;Candara&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Lock</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_unlock">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>140</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(16, 71, 169);
+color: rgb(255, 206, 115);
+border-radius:7px;padding:2px 4px;
+font: 15pt &quot;Candara&quot;;</string>
+   </property>
+   <property name="text">
+    <string>UnLock</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_manage">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>210</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(16, 71, 169);
+color: rgb(255, 206, 115);
+border-radius:7px;padding:2px 4px;
+font: 15pt &quot;Candara&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Manage password</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labe_image">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>50</y>
+     <width>201</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/*background-image: url(:/lock.png);*/</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_exit">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>0</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;Arial Rounded MT Bold&quot;;
+color: rgb(255, 206, 115);</string>
+   </property>
+   <property name="text">
+    <string>X</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_return">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>320</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(29, 123, 255);
+font: 25 9pt &quot;DIN Next LT Pro Light&quot;;
+font: 10pt &quot;Century Gothic&quot;;
+text-decoration: underline;</string>
+   </property>
+   <property name="text">
+    <string>Return to Login</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 25pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>MENU</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

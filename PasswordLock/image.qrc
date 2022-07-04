@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>back.png</file>
+        <file>blue.png</file>
+        <file>chahua.png</file>
+        <file>exit.png</file>
+        <file>girl1.png</file>
+        <file>girl2.png</file>
+        <file>lock.png</file>
+        <file>singup.png</file>
+        <file>unlock.png</file>
+        <file>cloud.png</file>
+    </qresource>
+</RCC>
